@@ -1,0 +1,103 @@
+/* Existing CSS code */
+
+/* body styling */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create_force input {
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    outline: none;
+    border-radius: 10px; /* remove rounded corners */
+}
+
+.create_force button {
+    padding: 10px 20px;
+    background-color: rgb(53, 231, 53);
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+    border-radius: 10px; /* remove rounded corners */
+    
+}
+
+
+.create_force button:hover {
+    background-color: darkgreen; /* Change the background color on hover */
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
+
+.checkbox .icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.task div span {
+    margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+    cursor: pointer;
+}
+
+.clear-all-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    
+}
+
+.clear-all-button:hover {
+    background-color: darkred;
+    align-content: center;
+}
+.popup-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.popup-message.success {
+    background-color: rgb(38, 189, 38);
+    color: whitesmoke;
+}
+
+.popup-message.error {
+    background-color: #e63f3f;
+    color: whitesmoke;
+}
